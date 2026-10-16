@@ -1,12 +1,11 @@
 {
-  "name": "shoppepay-merchant-system",
-  "version": "2.0.0",
-  "description": "ShopeePay Payment Check System with Admin Dashboard",
+  "name": "shoppepay-api-gateway",
+  "version": "1.0.0",
+  "description": "ShopeePay Partner API Gateway",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server-raw.js",
-    "build": "javascript-obfuscator server-raw.js --output server.js --self-defending true --control-flow-flattening true --dead-code-injection true --string-array-encoding rc4"
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "axios": "^1.7.2",
